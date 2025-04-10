@@ -12,9 +12,8 @@ import pandas as pd
 import numpy as np
 import os
 
+
 # Suppressing the warnings
-
-
 def warn(*args, **kwargs):
     pass
 
@@ -25,7 +24,6 @@ warnings.warn = warn
 warnings.filterwarnings("ignore")
 
 # Findspark simplifies the process of using Apache Spark with Python
-
 import findspark
 
 findspark.init()
